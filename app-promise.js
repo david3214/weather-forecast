@@ -42,7 +42,7 @@ let printInfo = (data) =>{
             }
             return tracker
         },1000)
-        console.log(`Predicted weather: ${data.hourly.summary}`)
+        console.log(`Predicted weather: ${data.daily.summary}`)
         console.log(`Predicted temperature range is between ${tempLow}-${tempHigh}`)
 
     }else {
